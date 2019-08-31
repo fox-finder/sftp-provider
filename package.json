@@ -1,0 +1,35 @@
+{
+  "name": "@fox-finder/sftp-provider",
+  "version": "0.1.0",
+  "description": "SSH file mainager module provider for @fox-finder",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon",
+    "build": "NODE_ENV=production tsc",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fox-finder/sftp-provider.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fox-finder/sftp-provider/issues"
+  },
+  "homepage": "https://github.com/fox-finder/sftp-provider#readme",
+  "dependencies": {
+    "@types/ssh2": "^0.5.38",
+    "ssh2": "^0.8.5",
+    "ssh2-sftp-client": "^4.0.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "nodemon": "^1.19.1",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.3.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "5.18.0"
+  }
+}

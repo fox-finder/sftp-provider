@@ -1,3 +1,11 @@
+# compiled output
+/dist
+
+# temp
+/bak
+/tmp
+/test
+
 # Logs
 logs
 *.log
