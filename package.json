@@ -20,7 +20,7 @@
   "homepage": "https://github.com/fox-finder/sftp-provider#readme",
   "dependencies": {
     "@types/ssh2": "^0.5.38",
-    "ssh2": "^0.8.5",
+    "ssh2": "^1.4.0",
     "ssh2-sftp-client": "^4.0.3",
     "typescript": "^3.5.3"
   },
